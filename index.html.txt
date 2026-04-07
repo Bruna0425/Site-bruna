@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bruna Ferreira | Psicóloga e Neuropsicóloga</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+body {margin:0;font-family:'Inter',sans-serif;background:#f7f6f3;color:#2c2c2c;}
+header {padding:20px 40px;display:flex;justify-content:space-between;align-items:center;}
+header h1 {font-family:'Playfair Display',serif;font-weight:400;}
+nav a {margin-left:25px;text-decoration:none;color:#444;}
+.hero {display:flex;align-items:center;justify-content:space-between;padding:60px 40px;flex-wrap:wrap;}
+.hero-text {max-width:500px;}
+.hero-text h2 {font-family:'Playfair Display',serif;font-size:36px;}
+.hero img {width:350px;border-radius:12px;}
+section {padding:60px 40px;max-width:1000px;margin:auto;}
+h3 {font-family:'Playfair Display',serif;font-size:28px;}
+.card {background:white;padding:25px;border-radius:12px;margin-bottom:20px;box-shadow:0 4px 12px rgba(0,0,0,0.05);}
+.btn {display:inline-block;padding:14px 22px;background:#d9d6cf;border-radius:10px;text-decoration:none;color:#333;margin-top:15px;}
+.whatsapp {position:fixed;bottom:20px;right:20px;background:#d9d6cf;padding:15px;border-radius:50%;text-decoration:none;font-size:18px;}
+footer {text-align:center;padding:30px;background:#eceae6;}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Bruna Ferreira</h1>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="hero-text">
+    <h2>Cuidado psicológico com olhar acolhedor e científico</h2>
+    <p>Psicoterapia e avaliação neuropsicológica para crianças, adolescentes e adultos.</p>
+    <a class="btn" href="https://wa.me/5519997519004">Agendar consulta</a>
+  </div>
+
+  <img src="foto.jpg" alt="Bruna Ferreira">
+</div>
+
+<section id="sobre">
+  <h3>Sobre mim</h3>
+  <div class="card">
+    <p>Sou psicóloga e neuropsicóloga com atuação clínica focada na saúde emocional e no desenvolvimento cognitivo.</p>
+    <p>Atendimentos online e presenciais em Campinas - Ponte Preta.</p>
+  </div>
+</section>
+
+<section id="servicos">
+  <h3>Serviços</h3>
+  <div class="card"><strong>Psicoterapia</strong><p>Atendimento para crianças, adolescentes e adultos.</p></div>
+  <div class="card"><strong>Avaliação Neuropsicológica</strong><p>Análise completa das funções cognitivas e emocionais.</p></div>
+  <div class="card"><strong>Orientação para Pais</strong><p>Suporte no manejo do comportamento infantil.</p></div>
+</section>
+
+<section id="contato">
+  <h3>Contato</h3>
+  <div class="card">
+    <p><strong>WhatsApp:</strong> (19) 99751-9004</p>
+    <p><strong>Local:</strong> Campinas - Ponte Preta</p>
+    <p><strong>Atendimento:</strong> Online e Presencial</p>
+    <a class="btn" href="https://wa.me/5519997519004">Falar no WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Bruna Ferreira | Psicóloga e Neuropsicóloga
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5519997519004">💬</a>
+
+</body>
+</html>
